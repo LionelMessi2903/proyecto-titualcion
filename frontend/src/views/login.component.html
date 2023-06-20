@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h3>Iniciar Sesión</h3>
+    </div>
+    <div class="form-input">
+      <label for="correo_electronico">Usuario</label>
+      <input type="text" id="correo_electronico" [(ngModel)]="correo_electronico" placeholder="" style="color: #000000;">
+    </div>
+    <div class="form-input">
+      <label for="contrasena">Contraseña</label>
+      <input type="password" id="contrasena" [(ngModel)]="contrasena" placeholder="" style="color: #000000;">
+    </div>
+    <div class="form-input">
+      <button (click)="login()">Ingresar</button>
+    </div>
+  </div>
+  
